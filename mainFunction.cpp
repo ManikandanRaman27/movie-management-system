@@ -61,7 +61,7 @@ void addMovie()
     cout<<"Movie Name           : ";
     getline(cin,temp.title);
     fflush(stdin);
-    cout<<"Movie Released Date  : ";
+    cout<<"Movie Released Year  : ";
     cin>>temp.releaseYear;
     fflush(stdin);
     cout<<"Movie Director       : ";
